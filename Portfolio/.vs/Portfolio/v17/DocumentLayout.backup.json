@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ngdia\\OneDrive\\Documentos\\c#\\portfolio\\Portfolio\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D4080F-8BEE-4CB4-B928-C4EF72078B22}|Presentacion\\Presentacion.csproj|c:\\users\\nico\\documents\\c#\\portfolio\\portfolio\\presentacion\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B2D4080F-8BEE-4CB4-B928-C4EF72078B22}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D4080F-8BEE-4CB4-B928-C4EF72078B22}|Presentacion\\Presentacion.csproj|C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\presentacion\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B2D4080F-8BEE-4CB4-B928-C4EF72078B22}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D4080F-8BEE-4CB4-B928-C4EF72078B22}|Presentacion\\Presentacion.csproj|C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\presentacion\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{B2D4080F-8BEE-4CB4-B928-C4EF72078B22}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A11B26-F42C-40A7-A5FE-E1D7DA9EDF5B}|Dominio\\Dominio.csproj|C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A11B26-F42C-40A7-A5FE-E1D7DA9EDF5B}|Dominio\\Dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A11B26-F42C-40A7-A5FE-E1D7DA9EDF5B}|Dominio\\Dominio.csproj|C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\dominio\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A11B26-F42C-40A7-A5FE-E1D7DA9EDF5B}|Dominio\\Dominio.csproj|solutionrelative:dominio\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inicio.aspx",
+              "DocumentMoniker": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Presentacion\\Inicio.aspx",
+              "RelativeDocumentMoniker": "Presentacion\\Inicio.aspx",
+              "ToolTip": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Presentacion\\Inicio.aspx",
+              "RelativeToolTip": "Presentacion\\Inicio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-31T14:58:13.843Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Presentacion\\Css\\style.css",
+              "RelativeDocumentMoniker": "Presentacion\\Css\\style.css",
+              "ToolTip": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Presentacion\\Css\\style.css",
+              "RelativeToolTip": "Presentacion\\Css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-31T15:00:06.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Master.Master",
+              "DocumentMoniker": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Presentacion\\Master.Master",
+              "RelativeDocumentMoniker": "Presentacion\\Master.Master",
+              "ToolTip": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Presentacion\\Master.Master",
+              "RelativeToolTip": "Presentacion\\Master.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-31T14:49:20.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Dominio\\Cliente.cs",
+              "RelativeDocumentMoniker": "Dominio\\Cliente.cs",
+              "ToolTip": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Dominio\\Cliente.cs",
+              "RelativeToolTip": "Dominio\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T22:17:58.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Formulario.cs",
+              "DocumentMoniker": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Dominio\\Formulario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Formulario.cs",
+              "ToolTip": "C:\\Users\\nico\\Documents\\c#\\portfolio\\Portfolio\\Dominio\\Formulario.cs",
+              "RelativeToolTip": "Dominio\\Formulario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T21:59:44.139Z"
             }
           ]
         }
