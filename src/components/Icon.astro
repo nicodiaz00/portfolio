@@ -1,0 +1,28 @@
+---
+
+import Github from './svg/Github.astro';
+import LinkedIn from './svg/LinkedIn.astro';
+import Js from './svg/Js.astro';
+import Nodejs from './svg/Nodejs.astro';
+
+const { name, size = '1.2rem', color = 'currentColor' } = Astro.props;
+
+const iconMap = {
+    github: Github,
+    linkedin: LinkedIn,
+    js: Js,
+    nodejs: Nodejs,
+
+
+};
+
+// Valida que 'name' exista y sea una clave válida
+const normalizedName = (name as string)?.toLowerCase() as keyof typeof iconMap;
+const TargetIcon = normalizedName && iconMap[normalizedName];
+
+if (!TargetIcon) {
+    console.warn(`Icono no encontrado: ${name}`);
+}
+---
+
+{TargetIcon && <TargetIcon size={size} color={color} class:list={[Astro.props.class]} />}

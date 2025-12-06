@@ -1,1 +1,24 @@
-@import "tailwindcss";
+/* --- Aquí puedes escribir tu CSS tradicional ---
+    
+    Puedes usar Flexbox, Grid y Media Queries estándar de CSS.
+*/
+
+/* Ejemplo de reset simple y uso de Flexbox para el body */
+:root {
+    box-sizing: border-box;
+    --nav-height: 100px; /* ajusta según necesites */
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Usamos el font-family que cargaste en el Layout, pero si no se carga, usamos sans-serif */
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: #0D0D0D; 
+}

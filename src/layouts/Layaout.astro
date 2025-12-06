@@ -1,8 +1,8 @@
 ---
 // src/layouts/Layout.astro
 
-// 1. Aquí importamos los estilos globales (Tailwind)
-import '../styles/global.css';
+// 1. Aquí importamos los estilos globales (CSS Clásico)
+import '../styles/global.css'; 
 import NavBar from '../components/NavBar.astro';
 import Footer from '../components/Footer.astro';
 
@@ -15,16 +15,18 @@ const { title } = Astro.props;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body>
-        <NavBar/>
+		<NavBar/>
 		<slot />
-        <Footer/>
+		<Footer/>
 
-		<script>
+		<!-- 2. ¡ELIMINADO! La dependencia de Flowbite ya no está. -->
+		<!-- <script>
 			import 'flowbite';
-		</script>
+		</script> -->
 	</body>
 </html>
